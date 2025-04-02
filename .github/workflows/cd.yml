@@ -16,6 +16,6 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5 
 
-      - names: Build apps
+      - name: Build apps
         run: scripts/buildprod.sh
 
