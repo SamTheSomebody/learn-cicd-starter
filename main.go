@@ -20,9 +20,6 @@ type apiConfig struct {
 	DB *database.Queries
 }
 
-func doNothing() {
-}
-
 //go:embed static/*
 var staticFiles embed.FS
 
